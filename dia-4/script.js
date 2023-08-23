@@ -1,4 +1,4 @@
-let numeroAleatorio = 5;
+let numeroAleatorio = Math.floor(Math.random() * 10 + 1);
 let tentativas = 3;
 
 function verificarNumeros(numeroGerado, numeroInserido) {
