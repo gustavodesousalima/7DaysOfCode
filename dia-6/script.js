@@ -46,7 +46,7 @@ if (adicionarComidaNaLista === "sim") {
         }
 
         alert("Item adicionado à lista de compras!");
-        adicionarItem = prompt("Deseja adicionar algo mais?").trim().toLowerCase();
+        adicionarItem = prompt("Deseja adicionar mais algo?").trim().toLowerCase();
 
         if (adicionarItem === "não") {
             removerItem = prompt("Deseja remover algo?").trim().toLowerCase();
