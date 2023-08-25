@@ -73,9 +73,7 @@ if (adicionarComidaNaLista === "sim") {
             }
         }
 
-
     }
-
 
 } else {
     alert("Obrigado pela resposta!");
